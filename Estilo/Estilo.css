@@ -1,0 +1,53 @@
+body{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(45deg, blue, white)
+}
+.container-main{
+    width: 80%;
+    font-size: 60px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    color: blue;
+}
+.container-main table button{
+    width: 56px;
+    height: 60px;
+    margin: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.botoes button{
+    width: 190px;
+    height: 70px;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 10px;
+
+}
+#contador{
+    margin: 20px;
+    font-size: 60px;
+}
+#mostrar{
+    text-align: center;
+    line-height: 50px;
+    width: 1000px;
+    height: 50px;
+    background-color: white;
+    margin: 35px;
+    color: black;
+    font-size: 25px;
+}
+#btnGrande{
+    width: 300px;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.817);
+    color: rgba(255, 255, 255, 0.73);
+}

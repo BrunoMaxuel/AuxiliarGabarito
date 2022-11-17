@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="JS/Script.JS"></script>
+    <link rel="stylesheet" href="Estilo/Estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auxiliar de Gabarito</title>
+</head>
+<body>
+    <div class="container-main">
+        <div>
+            Auxiliar de Gabarito
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <button onclick="increment('A')" id="A">A</button>
+                    <button onclick="increment('B')" id="B">B</button>
+                    <button onclick="increment('C')" id="C">C</button>
+                    <button onclick="increment('D')" id="D">D</button>
+                    <button onclick="increment('E')" id="E">E</button>
+                </td>
+            </tr>
+        </table>
+        <div id="contador">
+            0
+        </div>
+        <div class="botoes">
+            <button onclick="removerQuestao()" id="btnGrande">
+                Remover Questão Anterior
+            </button>
+            <button onclick="limparTudo()">
+                Limpar Tudo
+            </button>
+            <button onclick="mostrarGabarito()">
+                Mostrar Gabarito
+            </button>
+        </div>
+        <div id="mostrar">
+            
+        </div>
+    </div>
+</body>
+</html>
