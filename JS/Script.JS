@@ -18,12 +18,14 @@ function mostrarGabarito(){
     }
 }
 function limparTudo(){
-    alert("Deseja limpar tudo mesmo?");
+    var resp = confirm("DESEJA LIMPAR TUDO MESMO?");
+    if(resp){
     document.querySelector('#contador').innerHTML = 0;
     gabaritoAluno = [];
     document.querySelector('#mostrar').innerHTML = '';
     contExecution = 0;
     display = false;
+    }
 }
 function removerQuestao(){
     if(contExecution > 0){
