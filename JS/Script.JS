@@ -7,9 +7,9 @@ function increment(letra){
     contador++;
     document.querySelector('#contador').innerHTML = contador;
     contExecution++;
-    if(display){
+    
         document.querySelector('#mostrar').innerHTML = gabaritoAluno;
-    }
+    
 }
 function mostrarGabarito(){
     if(display){
