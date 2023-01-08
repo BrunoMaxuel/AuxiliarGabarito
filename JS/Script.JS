@@ -8,7 +8,7 @@ function increment(letra){
     document.querySelector('#contador').innerHTML = contador;
     contExecution++;
     if(display){
-        document.querySelect('#mostrar').innerHTML.concat(letra);
+        document.querySelect('#mostrar').innerHTML = gabaritoAluno;
     }
 }
 function mostrarGabarito(){
