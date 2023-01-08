@@ -7,6 +7,9 @@ function increment(letra){
     contador++;
     document.querySelector('#contador').innerHTML = contador;
     contExecution++;
+    if(display){
+        document.querySelect('#mostrar').innerHTML.append(letra);
+    }
 }
 function mostrarGabarito(){
     if(display){
@@ -14,8 +17,10 @@ function mostrarGabarito(){
         display = false;
     }else{
         document.querySelector('#mostrar').innerHTML = gabaritoAluno;
+        
         display = true
     }
+    
 }
 function limparTudo(){
     var resp = confirm("DESEJA LIMPAR TUDO MESMO?");
@@ -26,6 +31,7 @@ function limparTudo(){
     contExecution = 0;
     display = false;
     }
+    
 }
 function removerQuestao(){
     if(contExecution > 0){
