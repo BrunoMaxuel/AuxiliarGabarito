@@ -18,6 +18,7 @@ function mostrarGabarito(){
     }
 }
 function limparTudo(){
+    alert('Deseja limpar tudo mesmo?');
     document.querySelector('#contador').innerHTML = 0;
     gabaritoAluno = [];
     document.querySelector('#mostrar').innerHTML = '';
